@@ -351,12 +351,6 @@ section .sect_block p {
 }
 
 .roadmap {
-  background: #004784;
-  padding-top: 183px;
-  padding-bottom: 30px;
-  margin-top: -260px;
-  position: relative;
-  z-index: -1;
 }
 
 .roadmap:after {
@@ -394,6 +388,7 @@ section .sect_block p {
   padding: 45px 70px 55px 80px;
   position: relative;
   margin-bottom: 50px;
+  position: relative;
 }
 
 .roadmap .items .item:after {
