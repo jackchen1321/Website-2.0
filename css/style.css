@@ -48,7 +48,7 @@ html {
 
 body {
   background-repeat: no-repeat;
-  font-family: 'Industry Inc';
+  font-family: 'Roboto', Sans-serif;
   overflow-x: hidden;
   opacity: 0;
   font-size: 38px;
@@ -245,6 +245,18 @@ main {
   background-size: 1920px;
 }
 
+@media screen and (max-width: 768px) {
+  main {
+    background: url('../img/bg_mobile.png') no-repeat;
+    background-size: contain;
+    margin-top: 80px;
+  }
+
+  main .slider {
+    margin-top: -80px !important;
+  }
+}
+
 main .logo {
   display: block;
   margin: 0 auto;
@@ -317,7 +329,7 @@ section h2 {
 }
 
 section .sect_block {
-  background: url('../img/sect_block.png');
+  /* background: url('../img/sect_block.png'); */
   width: 736px;
   height: 738px;
   display: -webkit-box;
@@ -367,7 +379,7 @@ section .sect_block p {
 
 .roadmap .container {
   max-width: 1920px;
-  padding: 0 150px;
+  padding: 0 75px;
   width: 100%;
   margin: auto;
 }
@@ -398,7 +410,7 @@ section .sect_block p {
 
 .roadmap .items .item p {
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   text-transform: uppercase;
 }
 
@@ -548,7 +560,7 @@ section .sect_block p {
 .game_whitepaper section .container_sect p,
 .whitepaper section .container_sect p {
   color: #fff;
-  font-size: 1rem;
+  font-size: 14px;
   margin-bottom: 1.05rem;
 }
 
